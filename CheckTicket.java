@@ -22,11 +22,9 @@ public class CheckTicket {
         }//列车号需符合规范
         switch (s[1].charAt(0)){
             case '0':
-                NormalTrain.checkTicket(s);
             case 'G':
-                GatimaanTrain.checkTicket(s);
             case 'K':
-                KoyaTrain.checkTicket(s);
+                Train.checkTicket(s);
         }
 
     }

@@ -27,13 +27,9 @@ public class DelTrain {
             }//列车号需符合规范
             switch (s[1].charAt(0)){
                 case '0':
-                    NormalTrain.delTrain(s[1]);
-                    break;
                 case 'G':
-                    GatimaanTrain.delTrain(s[1]);
-                    break;
                 case 'K':
-                    KoyaTrain.delTrain(s[1]);
+                    Train.delTrain(s[1]);
                     break;
                 default:
                     System.out.println("Train serial illegal");

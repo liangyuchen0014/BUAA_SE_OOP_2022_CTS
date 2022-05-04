@@ -5,9 +5,10 @@ public class Line {
     String lineNo;
     int numOfTrain=0;
     int capacity;
-    ArrayList<NormalTrain> NTrainsOnline=new ArrayList<>();
-    ArrayList<GatimaanTrain> GTrainsOnline=new ArrayList<>();
-    ArrayList<KoyaTrain> KTrainsOnline=new ArrayList<>();
+    ArrayList<Train> TrainsOnline=new ArrayList<>();
+//    ArrayList<NormalTrain> NTrainsOnline=new ArrayList<>();
+//    ArrayList<GatimaanTrain> GTrainsOnline=new ArrayList<>();
+//    ArrayList<KoyaTrain> KTrainsOnline=new ArrayList<>();
     Set<Station> stations=new TreeSet<>(new Comparator<Station>() {
         @Override
         public int compare(Station o1, Station o2) {
