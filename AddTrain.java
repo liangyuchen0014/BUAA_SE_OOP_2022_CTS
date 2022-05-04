@@ -18,25 +18,19 @@ public class AddTrain {
 
         switch (s[1].charAt(0)){
             case '0':
-                if(s.length!=9){
-                    System.out.println("Arguments illegal");
-                    return;
-                }
-                NormalTrain.addTrain(s);
-                break;
             case 'G':
                 if(s.length!=9){
                     System.out.println("Arguments illegal");
                     return;
                 }
-                GatimaanTrain.addTrain(s);
+                Train.addTrain(s);
                 break;
             case 'K':
                 if(s.length!=7){
                     System.out.println("Arguments illegal");
                     return;
                 }
-                KoyaTrain.addTrain(s);
+                Train.addTrain(s);
                 break;
 
         }
