@@ -53,6 +53,18 @@ public class Test {
                             case "listTrain":
                                 new ListTrain(arr1);
                                 break;
+                            case "login":
+                                new Login(arr1);
+                                break;
+                            case "logout":
+                                new Logout(arr1);
+                                break;
+                            case "buyTicket":
+                                new BuyTicket(arr1);
+                                break;
+                            case "listOrder":
+                                new ListOrder(arr1);
+                                break;
                             default:
                                 System.out.println("Command does not exist");
                                 break;
@@ -91,6 +103,18 @@ public class Test {
                                 break;
                             case "listTrain":
                                 new ListTrain(arr1);
+                                break;
+                            case "login":
+                                new Login(arr1);
+                                break;
+                            case "logout":
+                                new Logout(arr1);
+                                break;
+                            case "buyTicket":
+                                new BuyTicket(arr1);
+                                break;
+                            case "listOrder":
+                                new ListOrder(arr1);
                                 break;
                             default:
                                 System.out.println("Command does not exist");
